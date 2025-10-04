@@ -1,0 +1,20 @@
+<html>
+  <head>
+  <meta charset="utf-8">
+    <title>Temperature Data (ThingSpeak)</title>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="fetch_temperature.js"></script>
+    <script src="draw_chart.js"></script>
+    <style>
+      body { font-family: Arial, sans-serif; margin: 24px; }
+      #chart_div { width: 100%; max-width: 900px; height: 400px; }
+      pre { padding: 12px; border-radius: 6px; white-space: pre-wrap; word-wrap: break-word; }
+    </style>
+  </head>
+  <body>
+    <h1>Temperature Data (ThingSpeak)</h1>
+    <div id="chart_div"></div>
+    <h2>JSON</h2>
+    <pre id="output"></pre>
+  </body>
+</html>
